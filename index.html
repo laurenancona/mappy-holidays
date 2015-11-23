@@ -24,6 +24,17 @@
     body {
       width: 100%;
       background-color: #ee4b93;
+      font-family: 'georgia', serif;
+      font-size: 1.2em;
+      letter-spacing: 1px;
+      color: #777;
+    }
+    
+    h3 {
+      text-transform: uppercase;
+      font-family: sans-serif;
+      font-size: 1em;
+      letter-spacing: 2px;
     }
     
     #main {
@@ -33,9 +44,31 @@
       max-width: 800px;
     }
     
+    #info {
+      width=100%;
+      min-height: 300px;
+      background-color: white;
+      padding: 30px;
+    }
+    
+    #details {
+      float: right;
+      width: 30%;
+      background-color: #777;
+      padding: 20px;
+      color: white;
+    }
+    
     #disqus_thread {
       margin-top: 30px;
       color: white!important;
+    }
+    
+    .address {
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-size: .8em;
+      line-height: 2em;
     }
     
     .message {
@@ -68,9 +101,32 @@
   <!-- End Google Tag Manager -->
   <div id="main">
     <img src="images/Mappy-Holidays_Postcard_6x4_Front.png" alt="Mappy Holidays! Join us for an evening of art maps, illustration prints, pillows, and more by Philadelphia artists." width="100%" height="">
-    <img src="images/Mappy-Holidays_Postcard_6x4_Back.png" alt="Friday, December 11, 5:00 – 9:00 pm, 131 N 3rd Street, Philadelphia, PA" width="100%" height="">
+    <div id="info">
+      <img src="images/Mappy-Holidays_Postcard_6x4_Back.png" alt="Friday, December 11, 5:00 – 9:00 pm, 131 N 3rd Street, Philadelphia, PA" width="100%" height="">
+      <h3>OUR CITY, OUR ART</h3>
+      <p>Join us for an evening of art maps, illustration prints, pillows, and more by Philadelphia artists.</p>
+
+      <h3>MAKE A CUSTOM MAP</h3>
+      <p>Visit a live design station featuring cartography by Lauren Ancona. Make a map of your neighborhood—or anywhere in the world!</p>
+      <div id="map">
+
+      </div>
+      <div id="details">
+        <p class="address">Friday, December 11
+          <br> 5:00 – 9:00 pm
+          <br> 131 N 3rd Street
+          <br> Philadelphia, PA</p>
+        <img src="image.png" alt="" width="50px" height="">
+
+        <p>MappyHolidays.com</p>
+
+        <p>hosting & refreshments by</p>
+        <img src="image1.png" alt="Freckle logo" width="100px" height="">
+      </div>
+    </div>
     <div>
-      <div id="disqus_thread"></div>
+      <!--      <div id="disqus_thread"></div>-->
+      <!--
       <script>
         /**
          * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -92,11 +148,12 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
           (d.head || d.body).appendChild(s);
         })();
       </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+      <!--      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>-->
     </div>
   </div>
   <script type="text/javascript" src="assets/retina.min.js"></script>
-  <script id="dsq-count-scr" src="//mappyholidays.disqus.com/count.js" async></script>
+  <!--  <script id="dsq-count-scr" src="//mappyholidays.disqus.com/count.js" async></script>-->
 </body>
 
 </html>
