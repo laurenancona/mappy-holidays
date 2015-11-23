@@ -24,10 +24,15 @@
     body {
       width: 100%;
       background-color: #ee4b93;
-      font-family: 'georgia', serif;
-      font-size: 1.2em;
+      font-size: 1.5em;
       letter-spacing: 1px;
-      color: #777;
+      color: white;
+      font-family: 'open sans', sans-serif;
+    }
+    
+    a {
+      //text-decoration: none!important;
+      color: white;
     }
     
     h3 {
@@ -44,35 +49,28 @@
       max-width: 800px;
     }
     
-    #info {
-      width=100%;
-      min-height: 300px;
-      background-color: white;
-      padding: 30px;
-    }
-    
-    #details {
-      float: right;
-      width: 30%;
-      background-color: #777;
-      padding: 20px;
-      color: white;
-    }
-    
-    #disqus_thread {
-      margin-top: 30px;
-      color: white!important;
-    }
-    
-    .address {
-      font-family: sans-serif;
-      text-transform: uppercase;
-      font-size: .8em;
-      line-height: 2em;
-    }
-    
     .message {
       color: white!important;
+    }
+    
+    button {
+      padding: 15px;
+      margin-top: 15px;
+      background-color: dodgerblue;
+      border: 0px;
+      border-radius: 10px;
+      align-items: center;
+      color: white;
+      font-family: 'open sans', sans-serif;
+      font-size: 1.2em;
+    }
+    
+    .grey {
+      background-color: #999!important;
+    }
+    
+    small {
+      font-size: .8em;
     }
   </style>
 </head>
@@ -103,6 +101,14 @@
     <!--    Yup, these are just some images.-->
     <img src="images/Mappy-Holidays_Postcard_6x4_Front.png" alt="Mappy Holidays! Join us for an evening of art maps, illustration prints, pillows, and more by Philadelphia artists." width="100%" height="">
     <img src="images/Mappy-Holidays_Postcard_6x4_Back.png" alt="Friday, December 11, 5:00 – 9:00 pm, 131 N 3rd Street, Philadelphia, PA" width="100%" height="">
+    <a href="http://attending.io/events/mappy-holidays" target="_blank">
+      <button style="text-align:center;width:800px;">I'm coming!</button>
+    </a>
+    <a href="http://store.blueprintmap.org" target="_blank">
+      <button class="grey" style="text-align:center;width:800px;">I'm not, but tell me more about these maps</button>
+    </a>
+    <p style="text-align:center;"><a href="https://letsfreckle.com" target="_blank"><small>About Freckle</small></a></p>
+
   </div>
   <script type="text/javascript" src="assets/retina.min.js"></script>
 </body>
