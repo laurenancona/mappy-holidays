@@ -1,0 +1,60 @@
+@charset "utf-8";
+	.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	width : 286px;
+	height : 225px;
+}
+.st0
+{
+	background : #929497;
+	background : rgba(146, 148, 151, 1);
+	width : 163px;
+	height : 288px;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	width : 91px;
+	height : 21px;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	width : 19px;
+	height : 15px;
+}
+.NormalCharacterStyle
+{
+	font-family : Myriad Pro;
+	font-size : 9px;
+	line-height : 15px;
+	letter-spacing : 0.45px;
+	text-transform : uppercase;
+	position : relative;
+	top : 2px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle1
+{
+	font-family : Myriad Pro;
+	font-size : 10px;
+	line-height : 14px;
+	letter-spacing : 1px;
+	text-transform : uppercase;
+	color : #6E6F71;
+	color : rgb(110, 111, 113);
+}
+.NormalCharacterStyle2
+{
+	font-family : Zapf Dingbats;
+	font-size : 12px;
+	line-height : 31px;
+	letter-spacing : 0.6px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
